@@ -1,0 +1,43 @@
+#top-header{}
+
+#top-navigation{
+    background-color: #4894B6;
+    padding: 1em 0;
+}
+
+#top-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.top-menu-item-icon{
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+#top-main-menu-container{
+    display: non;
+    background-color: darkslategrey;
+}
+
+#top-main-menu{
+    display: grid;
+    row-gap: 1em;
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+.top-main-menu-item{}
+
+.top-main-menu-item-link{
+    color: #f2f2f2;
+}

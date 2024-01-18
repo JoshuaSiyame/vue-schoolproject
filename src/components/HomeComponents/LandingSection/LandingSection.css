@@ -1,0 +1,120 @@
+/* general landing section styles */
+/* #landing-section{
+    background-image: url();
+} */
+
+#landing-section-text{
+    /* border: 1px solid palevioletred; */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#landing-section-text-big{
+    color: #F4131D;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+#landing-section-text-small{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin: .5em 0;
+}
+
+#landing-section-text-btn{
+    padding: .5em 2em;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #65CA5A;
+    border: 2px solid #65CA5A;
+    border-radius: 25px;
+    display: block;
+    margin: .5em auto;
+}
+
+/* General media queries */
+@media screen and (max-width: 320px){
+    #landing-section-text{
+        margin-top: 8em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 36px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    #landing-section-text{
+        margin-top: 7.5em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 38px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #landing-section-text{
+        margin-top: 7em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 44px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #landing-section-text{
+        margin-top: 6.5em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 44px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    #landing-section-text{
+        margin-top: 6em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 46px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}
+
+@media screen and (min-width: 1201px){
+    #landing-section-text{
+        margin-top: 6em;
+    }
+    
+    #landing-section-text-big{
+        font-size: 50px;
+    }
+    
+    #landing-section-text-small{}
+    
+    #landing-section-text-btn{}
+}

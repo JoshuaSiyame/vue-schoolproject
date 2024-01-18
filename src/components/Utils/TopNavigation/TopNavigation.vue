@@ -10,7 +10,7 @@
         <div id="top-main-menu-container">
             <ol id="top-main-menu">
                 <li class="top-main-menu-item">
-                    <RouterLink to="/home" class="top-main-menu-item-link">Home</RouterLink>
+                    <RouterLink to="/" class="top-main-menu-item-link">Home</RouterLink>
                 </li>
                 <li class="top-main-menu-item">
                     <RouterLink to="/about" class="top-main-menu-item-link">About</RouterLink>
